@@ -1,0 +1,172 @@
+@media screen and (max-width: 2000px) and (min-width: 1000px) {
+    h1 {
+        font-weight: 400;
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-weight: 300;
+        font-size: 1.15rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    li a {
+        color: red;
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .logo {
+        width: 300px;
+        margin-left: 1rem;
+    }
+
+    .nav {
+        font-size: 1px;
+        margin-right: 1rem;
+    }
+
+    .container img {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+    }
+
+    .m-container {
+        display: none;
+    }
+
+    .home h1 {
+        margin-bottom: .3rem;
+    }
+
+    .home h2 {
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    h1 {
+        font-weight: 400;
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-weight: 300;
+        font-size: 1.15rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    li a {
+        color: red;
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .logo {
+        width: 300px;
+        margin-left: 1rem;
+    }
+
+    .nav {
+        margin-right: 34.6rem;
+    }
+
+    .container img {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+    }
+
+    .m-container {
+        display: none;
+    }
+
+    .home h1 {
+        margin-bottom: .3rem;
+    }
+
+    .home h2 {
+        line-height: 3rem;
+    }
+
+    .menu,
+    .about,
+    .contact {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 200px;
+        margin: 5px;
+        margin-left: 5px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .m-container {
+        position: relative;
+        text-align: center;
+        color: whitesmoke;
+        letter-spacing: 2px;
+        line-height: 10px;
+    }
+
+    .m-container img {
+        width: 75%;
+        height: auto;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .home h1 {
+        margin-bottom: .3rem;
+    }
+
+    .home h2 {
+        line-height: 1.5rem;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .menu,
+    .about,
+    .contact {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    #story {
+        width: 50%;
+    }
+}

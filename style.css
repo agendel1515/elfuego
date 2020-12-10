@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Racing Sans One', cursive;
+    background-color: #000000;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 4rem;
+    font-family: 'Racing Sans One', cursive;
+
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: 'Racing Sans One', cursive;
+
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    color: #FF0000;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+h4 {
+    color: #FF0000;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+h5 {
+    color: #FFE03C;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 4rem;
+}
+
+h6 {
+    color: #FF0000
+}
+
+p {
+    margin-left: 50px;
+    font-family: 'DM Sans'cursive, sans-serif;
+    font-size: 1rem;
+    letter-spacing: .8px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+ul {
+    cursor: pointer;
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: overline;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: #FF0000;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFE03C;
+}
+
+li a:active {
+    color: #000000;
+}
+
+i {
+    font-size: 22px;
+}
+
+i a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: .2em;
+}
+
+i a:hover {
+    text-decoration: none;
+    color: #FFE03C;
+}
+
+.nav {
+    float: center;
+    margin-top: 2rem;
+}
+
+.nav a {
+    font-size: 30px; :important!
+}
+
+.material-icons {
+    float: right;
+    margin-top: -1.8rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.container img {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.container-logo {
+    position: center;
+    height: 600px;
+    width: 800px;
+
+}
+
+.logo {
+    width: 200px;
+    margin: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home h2 {
+    line-height: 20rem;
+}
+
+
+.contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#link {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+#link:hover {
+    color: #FFE03C;
+}
+
+#link:visited {
+    color: #FF030C;
+}
+
+#story {
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0rem;
+    margin-left: 10rem;
+    margin-right: -10rem;
+}
+
+#last {
+    margin-bottom: 100px;
+}
