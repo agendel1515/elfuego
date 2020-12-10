@@ -114,7 +114,7 @@ i a:hover {
 }
 
 .nav a {
-    font-weight: 500 font-size: 20px;
+    font-weight: 300 font-size: 20px;
     : important !
 }
 
@@ -180,7 +180,7 @@ i a:hover {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-left: 10rem;
     margin-right: -10rem;
 }
