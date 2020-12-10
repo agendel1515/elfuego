@@ -104,7 +104,8 @@
     }
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
     h1 {
         font-weight: 400;
         font-size: 2rem;
@@ -120,25 +121,17 @@
     }
 
     .logo {
-        width: 10px;
-        margin: 1px;
-        margin-left: 1px;
+        width: 30px;
+        margin: 2px;
+        margin-left: 2px;
     }
 
     .nav {
         display: none;
     }
-
-    .m-container {
-        position: relative;
-        text-align: center;
-        color: red;
-        letter-spacing: 2px;
-        line-height: 10px;
-    }
-
+    
     .m-container img {
-        width: 20%;
+        width: 10%;
         height: auto;
     }
 
@@ -162,11 +155,7 @@
     .menu,
     .story,
     .contact {
-        margin-left: 3rem;
-        margin-right: 3rem;
-    }
-
-    #story {
-        width: 50%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
