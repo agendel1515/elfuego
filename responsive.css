@@ -46,6 +46,13 @@
     .home h2 {
         line-height: 3rem;
     }
+    
+    .menu,
+    .story,
+    .contact {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
@@ -97,7 +104,7 @@
     }
 
     .menu,
-    .about,
+    .story,
     .contact {
         margin-left: 8rem;
         margin-right: 8rem;
@@ -127,7 +134,7 @@
     }
 
     .nav {
-        display: none;
+        display: inherit;
     }
     
     .m-container img {

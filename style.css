@@ -16,14 +16,14 @@ h1 {
 }
 
 h2 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2rem;
     font-family: 'Racing Sans One', cursive;
 
 }
 
 h3 {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 1.5rem;
     letter-spacing: 3px;
     color: #FF0000;
@@ -32,6 +32,7 @@ h3 {
 }
 
 h4 {
+    font-weight: 400;
     color: #FF0000;
     letter-spacing: 1px;
     font-size: 1.5rem;
@@ -41,6 +42,7 @@ h4 {
 }
 
 h5 {
+    font-weight: 400;
     color: #FFE03C;
     letter-spacing: .1rem;
     font-size: 1.5rem;
@@ -49,10 +51,12 @@ h5 {
 }
 
 h6 {
+    font-weight: 400;
     color: #FF0000
 }
 
 p {
+    font-weight: 300;
     margin-left: 50px;
     font-family: 'DM Sans'cursive, sans-serif;
     font-size: 1rem;
@@ -62,7 +66,6 @@ p {
 }
 
 ul {
-    cursor: pointer;
     list-style-type: none;
     margin: 5px;
     padding: 10px;
@@ -107,11 +110,12 @@ i a:hover {
 
 .nav {
     float: center;
-    margin-top: 2rem;
+    margin-top: -3rem;
 }
 
 .nav a {
-    font-size: 30px; :important!
+    font-weight: 500 font-size: 20px;
+    : important !
 }
 
 .material-icons {
@@ -127,7 +131,7 @@ i a:hover {
 
 .container img {
     position: relative;
-    width: 50%;
+    width: 70%;
     height: auto;
     margin-top: 1rem;
 }
@@ -153,14 +157,9 @@ i a:hover {
     transform: translate(-50%, -50%);
 }
 
-.home h2 {
-    line-height: 20rem;
-}
-
-
 .contact {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 50%;
 }
 
 #link {
