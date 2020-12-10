@@ -24,7 +24,7 @@ h2 {
 
 h3 {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 20px;
     letter-spacing: 3px;
     color: #FF0000;
     text-align: center;
@@ -51,8 +51,17 @@ h5 {
 }
 
 h6 {
+    align-content: center;
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: 400;
     color: #FF0000
+}
+
+h7 {
+    align-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
 p {
@@ -130,6 +139,7 @@ i a:hover {
 }
 
 .container img {
+    filter: drop-shadow(15px 15px 15px #FFE03C);
     position: relative;
     width: 70%;
     height: auto;
@@ -186,5 +196,6 @@ i a:hover {
 }
 
 #last {
+    margin-top: -20px;
     margin-bottom: 100px;
 }
