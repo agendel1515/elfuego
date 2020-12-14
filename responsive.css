@@ -89,7 +89,7 @@
     .container img {
         margin-left: 3rem;
         margin-right: 3rem;
-        margin-top: 1rem;
+        margin-top: 4rem;
     }
 
     .m-container {
@@ -101,6 +101,10 @@
     .contact {
         margin-left: 8rem;
         margin-right: 8rem;
+    }
+    
+    #gracias {
+        margin-bottom: 1rem;
     }
 }
 

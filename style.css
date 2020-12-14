@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Racing Sans One', cursive;
-    background-color: #000000;
+    background-color: #080808;
 }
 
 h1 {
@@ -133,6 +133,7 @@ i a:hover {
 }
 
 .container {
+    margin-bottom: 100px;
     position: relative;
     text-align: center;
     letter-spacing: 5px;
@@ -196,6 +197,6 @@ i a:hover {
 }
 
 #last {
-    margin-top: -20px;
-    margin-bottom: 100px;
+    margin-top: inherit;
+    margin-bottom: 200px;
 }
